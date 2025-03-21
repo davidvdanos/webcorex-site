@@ -6,8 +6,8 @@ const nextConfig = {
     images: {
         unoptimized: true, // Required for static export
     },
-    // This setting is needed for GitHub Pages
-    basePath: process.env.NODE_ENV === 'production' ? '/webcorex-site' : '',
+    // Remove basePath since we're using a custom domain now
+    // basePath: process.env.NODE_ENV === 'production' ? '/webcorex-site' : '',
     trailingSlash: true,
 };
 
